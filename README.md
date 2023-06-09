@@ -41,4 +41,15 @@ Download the [data](https://drive.google.com/drive/folders/1RrYCaq6QxSVD2K4wJFrT
 ```
 python run_demos.py
 ```
+## References
+If you find this repository helpful, please cite as:
+```
+@article{zhao2023controlvideo,
+  title={ControlVideo: Adding Conditional Control for One Shot Text-to-Video Editing},
+  author={Zhao, Min and Wang, Rongzhen and Bao, Fan and Li, Chongxuan and Zhu, Jun},
+  journal={arXiv preprint arXiv:2305.17098},
+  year={2023}
+}
+```
+This implementation is based on [Tune-A-Video](https://github.com/showlab/Tune-A-Video) and [Video-p2p](https://github.com/ShaoTengLiu/Video-P2P).
 
