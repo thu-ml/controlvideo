@@ -1,0 +1,42 @@
+pretrained_model_path: "./stable-diffusion-v1-5"
+output_dir: ""    # "./outputs/v1_demo/pose/dance"
+pretrained_controlnet_path: "./sd-controlnet-openpose"
+
+control_config:
+  type: "openpose"
+  control_scale: 1.0
+
+train_data:
+  video_path: ""    # "./my_dataset/pose/dance"
+  prompt: ""
+  n_sample_frames: 8
+  width: 512
+  height: 512
+  sample_start_idx: 0
+  sample_frame_rate: 1
+
+validation_data:
+  prompts:
+    - ""
+  video_length: 8
+  width: 512
+  height: 512
+  guidance_scale: 12
+  num_steps: 50
+  start: "inversion"
+  edit_type: "DDIM"
+
+learning_rate: 3e-5
+train_batch_size: 1
+max_train_steps: 1500
+validation_steps: 250
+trainable_modules:
+  - "attn1.to_out"
+  - "attn_temp"
+  - "norm_temp"
+  - "conv_temp"
+
+seed: 0
+mixed_precision: fp16
+gradient_checkpointing: True
+enable_xformers_memory_efficient_attention: True

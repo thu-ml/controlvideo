@@ -1,0 +1,31 @@
+{"name": "car11", "type": "canny", "source": "a car", "target": ["a car, Vincent van Gogh style"], "step": 80}
+{"name": "car11", "type": "canny", "source": "a car", "target": ["a car, autumn"], "step": 80}
+{"name": "car11", "type": "canny", "source": "a car", "target": ["a red car"], "step": 1}
+{"name": "girl8", "type": "canny", "source": "a girl", "target": ["a girl, at night, foggy, soft cinematic lighting"], "step": 80}
+{"name": "girl8", "type": "canny", "source": "a girl", "target": ["a girl, Krenz Cushart style"], "step": 80}
+{"name": "girl8", "type": "canny", "source": "a girl", "target": ["a girl, red hair"], "step": 80}
+{"name": "building1", "type": "canny", "source": "a building", "target": ["a wooden building, at night"], "step": 80}
+{"name": "demo_swan", "type": "canny", "source": "a black swan is swimming in a river", "target": ["a black swan is swimming in a river, Vincent van Gogh style"], "step": 1}
+{"name": "car10", "type": "hed", "source": "a car", "target": ["a red car"], "step": 300}
+{"name": "cat4", "type": "hed", "source": "a cat", "target": ["a black cat"], "step": 300}
+{"name": "girl3", "type": "hed", "source": "a girl", "target": ["a girl, Krenz Cushart style"], "step": 300}
+{"name": "girl3", "type": "hed", "source": "a girl", "target": ["a girl with red hair"], "step": 300}
+{"name": "girl7", "type": "hed", "source": "a girl", "target": ["a girl, at night, foggy, soft cinematic lighting"], "step": 300}
+{"name": "girl7", "type": "hed", "source": "a girl", "target": ["a girl with golden dress"], "step": 100}
+{"name": "girl7_face", "type": "hed", "source": "a girl", "target": ["a girl with exquisite and rich makeup"], "step": 300}
+{"name": "girlface9_5", "type": "hed", "source": "a girl", "target": ["a girl with rich makeup"], "step": 300}
+{"name": "girlface9_6", "type": "hed", "source": "a girl", "target": ["a girl with rich makeup"], "step": 300}
+{"name": "mountain6", "type": "hed", "source": "a man with a hiking bag stands on the mountain", "target": ["a man on a snow mountain, realistic"], "step": 300}
+{"name": "demo_car", "type": "hed", "source": "a jeep car is moving on the road", "target": ["a jeep car is moving on the road, beautiful autumn"], "step": 300}
+{"name": "demo_car", "type": "hed", "source": "a jeep car is moving on the road", "target": ["a jeep car is moving on the road, watercolor painting"], "step": 300}
+{"name": "demo_swan", "type": "hed", "source": "a black swan is swimming in a river", "target": ["a Swarovski crystal swan is swimming in a river"], "step": 1}
+{"name": "back1", "type": "depth", "source": "the back view of a woman with beautiful scenery", "target": ["the back view of a woman, Toei Animation style"], "step": 100}
+{"name": "back1", "type": "depth", "source": "the back view of a woman with beautiful scenery", "target": ["the back view of a woman admiring beautiful sunrising, early morning"], "step": 700}
+{"name": "cake2", "type": "depth", "source": "a cake", "target": ["a cake with romantic pure red candlestick, beautifully backlit, matte painting concept art"], "step": 300}
+{"name": "ink1", "type": "depth", "source": "ink diffuses in water", "target": ["gentle green ink diffuses in water, beautiful light"], "step": 200}
+{"name": "dance5", "type": "pose", "source": "a person is dancing", "target": ["a person is dancing, Makoto Shinkai style"],  "step": 1000}
+{"name": "dance9", "type": "pose", "source": "a person is dancing", "target": ["a person wearing blue jeans is dancing"], "step": 1500}
+{"name": "dance9", "type": "pose", "source": "a person is dancing", "target": ["a person is dancing, Makoto Shinkai style"], "step": 1500}
+{"name": "dance26", "type": "pose", "source": "a person is dancing", "target": ["Michael Jackson is dancing"], "step": 1500}
+{"name": "dance26", "type": "pose", "source": "a person is dancing", "target": ["Sherlock Holmes is dancing, on the street of london, raining"], "step": 1}
+{"name": "sport11", "type": "pose", "source": "a boy is skateboarding", "target": ["a brown bear is skateboarding"], "step": 400}
