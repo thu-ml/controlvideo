@@ -22,6 +22,7 @@ pip install -U --pre triton
 pip install accelerate==0.12.0 timm==0.3.2 absl-py ml_collections einops wandb ftfy==6.1.1 transformers==4.23.1 scipy
 pip install diffusers==0.11.1
 pip install imageio
+pip install imageio-ffmpeg
 pip install omegaconf
 pip install opencv-python
 pip install decord
