@@ -1,7 +1,7 @@
 import jsonlines
 import os
 from util import available_devices, format_devices
-device = available_devices(threshold=40000, n_devices=1)
+device = available_devices(threshold=20000, n_devices=1)
 os.environ["CUDA_VISIBLE_DEVICES"] = format_devices(device)
 
 video_list = 'demos.jsonl'

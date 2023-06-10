@@ -1,6 +1,6 @@
 import os
 from util import available_devices, format_devices
-device = available_devices(threshold=40000, n_devices=1)
+device = available_devices(threshold=20000, n_devices=1)
 os.environ["CUDA_VISIBLE_DEVICES"] = format_devices(device)
 from omegaconf import OmegaConf
 from train import main
