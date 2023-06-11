@@ -27,6 +27,8 @@ pip install omegaconf
 pip install opencv-python
 pip install decord
 pip install jsonlines
+pip install matplotlib
+pip install scikit-image
 ```
 The environment is similar to [Tune-A-Video](https://github.com/showlab/Tune-A-Video)
 ## Prepare Pretrained Text-to-Image Diffusion Model
