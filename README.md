@@ -14,21 +14,7 @@ ControlVideo incorporates visual conditions for all frames to amplify the source
 - [ ] More Sampler
 ## Environment
 ```
-conda create -n controlvideo python=3.9
-conda activate controlvideo
-conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
-conda install xformers -c xformers/label/dev
-pip install -U --pre triton
-pip install accelerate==0.12.0 timm==0.4.9 absl-py ml_collections einops wandb ftfy==6.1.1 transformers==4.23.1 scipy
-pip install diffusers==0.11.1
-pip install imageio
-pip install imageio-ffmpeg
-pip install omegaconf
-pip install opencv-python
-pip install decord
-pip install jsonlines
-pip install matplotlib
-pip install scikit-image
+conda env create -f environment.yml
 ```
 The environment is similar to [Tune-A-Video](https://github.com/showlab/Tune-A-Video)
 ## Prepare Pretrained Text-to-Image Diffusion Model
